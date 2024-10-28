@@ -1,5 +1,7 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234 :0",Icon = "rbxassetid://7733658504",Duration = 5})
 
+game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "nah, don't even try"
+
 wait(0.2)
 
 if game.Players.LocalPlayer.leaderstats.Slaps.Value >= 44000 then
