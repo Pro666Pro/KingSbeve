@@ -51,7 +51,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").GeneralAbility:FireServer(unpack(args))
 
-wait(0.3)
+wait(0.01)
 
 fireclickdetector(workspace.Lobby["Diamond"].ClickDetector)
 
@@ -59,7 +59,7 @@ wait(0.1)
 
 game:GetService("ReplicatedStorage"):WaitForChild("Rockmode"):FireServer()
 
-wait(1.4)
+wait(2)
 
 game:GetService("ReplicatedStorage"):WaitForChild("DeactivateRockmode"):FireServer()
 
