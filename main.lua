@@ -1,6 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234 💔",Icon = "rbxassetid://7733658504",Duration = 5})
 
---ez
+--ez haha
 
 game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "KING SBEVE"
 
