@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234",Icon = "rbxassetid://7733658504",Duration = 5})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234 :)",Icon = "rbxassetid://7733658504",Duration = 5})
 
 wait(0.2)
 
@@ -76,6 +76,10 @@ end
 wait(0.5)
 
 game:GetService("ReplicatedStorage").GeneralAbility:FireServer()
+
+wait(1)
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 20
 	
 else
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Not Enough Slaps. ( you need 44k slaps )",Icon = "rbxassetid://7733658504",Duration = 5})
