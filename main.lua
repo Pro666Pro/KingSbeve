@@ -15,16 +15,8 @@ S.Size = Vector3.new(1000, 10, 1000)
 S.Parent = workspace
 end
 
-fireclickdetector(workspace.Lobby["Diamond"].ClickDetector)
-  
-wait(0.1)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace["Baseplate"].CFrame * CFrame.new(0,30,0)
 
-wait(0.2)
-  
-game:GetService("ReplicatedStorage"):WaitForChild("Rockmode"):FireServer()
-  
 wait(0.2)
 
 for i, v in pairs(game:GetService("ReplicatedStorage")._NETWORK:GetChildren()) do
@@ -47,7 +39,7 @@ for i, v in pairs(game:GetService("ReplicatedStorage")._NETWORK:GetChildren()) d
 	    end
 	end
 
-wait(1)
+wait(0.1)
   
 local args = {
     [1] = "Transform"
@@ -55,17 +47,17 @@ local args = {
 
 game:GetService("ReplicatedStorage").GeneralAbility:FireServer(unpack(args))
 
-wait(0.2)
+wait(0.1)
 
 fireclickdetector(workspace.Lobby["Diamond"].ClickDetector)
 
 wait(0.1)
 
+game:GetService("ReplicatedStorage"):WaitForChild("Rockmode"):FireServer()
+
+wait(1.5)
+
 game:GetService("ReplicatedStorage"):WaitForChild("DeactivateRockmode"):FireServer()
-
-wait(0.5)
-
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.Origo.CFrame
 
 wait(0.2)
 
