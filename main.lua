@@ -2,7 +2,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text
 
 wait(0.2)
 
-if game.Players.LocalPlayer.leaderstats.Slaps.Value >= 45 then
+if game.Players.LocalPlayer.leaderstats.Slaps.Value >= 44000 then
 
 if workspace:FindFirstChild("Baseplate") == nil then
 local S = Instance.new("Part")
@@ -73,3 +73,6 @@ fireclickdetector(workspace.Lobby["Sbeve"].ClickDetector)
 
 wait(0.1)
 
+else
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Not Enough Slaps. ( you need 44k slaps )",Icon = "rbxassetid://7733658504",Duration = 5})
+end
