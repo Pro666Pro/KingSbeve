@@ -83,7 +83,7 @@ game:GetService("ReplicatedStorage").GeneralAbility:FireServer()
 
 wait(1)
 
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 20
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 26
 	
 else
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Not Enough Slaps. ( you need 44k slaps )",Icon = "rbxassetid://7733658504",Duration = 5})
