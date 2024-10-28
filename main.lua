@@ -52,7 +52,7 @@ wait(0.1)
 
 fireclickdetector(workspace.Lobby["Diamond"].ClickDetector)
 
-wait(0.1)
+wait(0.2)
 
 game:GetService("ReplicatedStorage"):WaitForChild("Rockmode"):FireServer()
 
