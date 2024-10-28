@@ -73,6 +73,18 @@ fireclickdetector(workspace.Lobby["Sbeve"].ClickDetector)
 
 wait(0.1)
 
+repeat task.wait() until game.Players.LocalPlayer.Character
+if game.Players.LocalPlayer.Character:FindFirstChild("entered") == nil and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+repeat task.wait()
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace.Lobby.Teleport1.TouchInterest.Parent, 0)
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace.Lobby.Teleport1.TouchInterest.Parent, 1)
+until game.Players.LocalPlayer.Character:FindFirstChild("entered")
+end
+
+wait(0.5)
+
+game:GetService("ReplicatedStorage").GeneralAbility:FireServer()
+	
 else
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Not Enough Slaps. ( you need 44k slaps )",Icon = "rbxassetid://7733658504",Duration = 5})
 end
