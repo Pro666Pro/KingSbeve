@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234 💝",Icon = "rbxassetid://7733658504",Duration = 5})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234 :)",Icon = "rbxassetid://7733658504",Duration = 5})
 
 --ez haha
 
@@ -51,7 +51,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").GeneralAbility:FireServer(unpack(args))
 
-wait(0.2)
+wait(0.1)
 
 fireclickdetector(workspace.Lobby["Diamond"].ClickDetector)
 
