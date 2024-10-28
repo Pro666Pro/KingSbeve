@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234 :0",Icon = "rbxassetid://7733658504",Duration = 5})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234 >:)",Icon = "rbxassetid://7733658504",Duration = 5})
 
 game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "nah, don't even try"
 
@@ -49,15 +49,15 @@ local args = {
 
 game:GetService("ReplicatedStorage").GeneralAbility:FireServer(unpack(args))
 
-wait(0.1)
+wait(0.3)
 
 fireclickdetector(workspace.Lobby["Diamond"].ClickDetector)
 
-wait(0.2)
+wait(0.3)
 
 game:GetService("ReplicatedStorage"):WaitForChild("Rockmode"):FireServer()
 
-wait(1.5)
+wait(1)
 
 game:GetService("ReplicatedStorage"):WaitForChild("DeactivateRockmode"):FireServer()
 
