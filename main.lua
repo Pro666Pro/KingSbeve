@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234 ⚜",Icon = "rbxassetid://7733658504",Duration = 5})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer1234 💢",Icon = "rbxassetid://7733658504",Duration = 5})
 
 game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "KING SBEVE"
 
@@ -53,11 +53,11 @@ wait(0.3)
 
 fireclickdetector(workspace.Lobby["Diamond"].ClickDetector)
 
-wait(0.3)
+wait(0.1)
 
 game:GetService("ReplicatedStorage"):WaitForChild("Rockmode"):FireServer()
 
-wait(1)
+wait(1.4)
 
 game:GetService("ReplicatedStorage"):WaitForChild("DeactivateRockmode"):FireServer()
 
